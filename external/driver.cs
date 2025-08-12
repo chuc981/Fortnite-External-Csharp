@@ -7,7 +7,7 @@ public static class Driver
 {
     #region Constantes e Definições do Driver
 
-    private const string DrvName = "\\\\.\\GN6Qn-554SFf";
+    private const string DrvName = "\\\\.\\YOUDRIVERNAMEHERENIGGAWOWWWW";
 
     private const uint FILE_DEVICE_UNKNOWN = 0x00000022;
     private const uint METHOD_BUFFERED = 0;
@@ -371,4 +371,5 @@ public static class Driver
     }
 
     #endregion
+
 }
