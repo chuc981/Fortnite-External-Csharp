@@ -19,11 +19,11 @@ public static class Driver
         return ((deviceType) << 16) | ((access) << 14) | ((function) << 2) | (method);
     }
 
-    private static readonly uint REQ_RW = CtlCode(FILE_DEVICE_UNKNOWN, 0x32F1, METHOD_BUFFERED, FILE_SPECIAL_ACCESS);
-    private static readonly uint REQ_BASE = CtlCode(FILE_DEVICE_UNKNOWN, 0x32F2, METHOD_BUFFERED, FILE_SPECIAL_ACCESS);
-    private static readonly uint REQ_CR3 = CtlCode(FILE_DEVICE_UNKNOWN, 0x32F3, METHOD_BUFFERED, FILE_SPECIAL_ACCESS);
-    private static readonly uint REQ_MOUSE = CtlCode(FILE_DEVICE_UNKNOWN, 0x4563, METHOD_BUFFERED, FILE_SPECIAL_ACCESS);
-    private static readonly uint REQ_PEB = CtlCode(FILE_DEVICE_UNKNOWN, 0x35F5, METHOD_BUFFERED, FILE_SPECIAL_ACCESS);
+    private static readonly uint REQ_RW = CtlCode(FILE_DEVICE_UNKNOWN, 0xnigga, METHOD_BUFFERED, FILE_SPECIAL_ACCESS);
+    private static readonly uint REQ_BASE = CtlCode(FILE_DEVICE_UNKNOWN, 0xnigga, METHOD_BUFFERED, FILE_SPECIAL_ACCESS);
+    private static readonly uint REQ_CR3 = CtlCode(FILE_DEVICE_UNKNOWN, 0xnigga, METHOD_BUFFERED, FILE_SPECIAL_ACCESS);
+    private static readonly uint REQ_MOUSE = CtlCode(FILE_DEVICE_UNKNOWN, 0xnigga, METHOD_BUFFERED, FILE_SPECIAL_ACCESS);
+    private static readonly uint REQ_PEB = CtlCode(FILE_DEVICE_UNKNOWN, 0xnigga, METHOD_BUFFERED, FILE_SPECIAL_ACCESS);
 
     #endregion
 
@@ -373,3 +373,4 @@ public static class Driver
     #endregion
 
 }
+
